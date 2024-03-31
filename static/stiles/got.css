@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(27deg, #ff6600 0%, #000000 100%);
+}
+/* navbar цвет */
+.nav-link{
+    color: chocolate;
+}
+
+.navbar-nav .nav-link.active {
+    color: rgb(144, 154, 151);
+}
+/* logo */
+.navbar-brand img {
+    width: 40px ;
+ }
+ /* navdar бутер */
+.navbar-toggler {
+    background-color: rgb(144, 154, 151);
+}
+/* карты размер */
+.card img {
+    height: 375px;
+   
+}
+/* карты товара  */
+.card {
+   background:black;
+   color: chocolate;
+}
+/* правая панель */
+.sidebar{ 
+    color: #250707;
+    background: linear-gradient(90deg, #ff6600 0%, #00000049 100%);
+}
+.slide-text,
+.footer-text{
+    color: rgb(0, 0, 0);
+    margin: auto auto;
+}
+@media (max-width: 755px ) {
+    .carousel-indicators{
+    display: none;
+}
+}
+footer{
+    background: linear-gradient(27deg, #ff6600 0%, #000000 100%);
+
+}
